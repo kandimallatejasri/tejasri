@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+int X,Y,Z,R;
+scanf("%d %d",&X,&Y);
+R=X;
+while((X>0 && X<10000)&&(Y>0 && Y<100))
+{
+  Z=(Y/100)*X;
+  R=R+X;
+  X=(X-Z);
+ }
+printf("%d",R);
+return 0;
+}
+
+ 
+  
+  
+  
+  
